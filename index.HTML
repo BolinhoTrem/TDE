@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PROFILE</title>
+  <link rel="stylesheet" href="index.CSS">
+</head>
+<body>
+  <nav class="navbar">
+    <button onclick="voltarInicio()">Início</button>
+  </nav>
+  <div class="tela-dividida">
+    <div class="lado-esquerdo">
+      <div class="topo-perfil">
+        <div class="comeco">
+          <h2 class="nome-autor">Gabriel Henrique Alves de Oliveira</h2>
+          <h1>Perfil Pessoal</h1>
+          <h4>Aqui comentarei sobre cada disciplina contemplada nesse semestre</h4>
+          <div class="fotopuc">
+            <img src="logo-pucpr-icon-1.png" alt="Logo PUC">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="lado-direito">
+      <div class="botoes-navegacao">
+        <button onclick="mostrarSecao('Experiencia_Criativa')">Experiência Criativa: Navegando na Computação</button>
+        <button onclick="mostrarSecao('Fundamentos')">Fundamentos de Sistemas Ciberfísicos</button>
+        <button onclick="mostrarSecao('Logica')">Resolução de Problemas com Lógica Matemática</button>
+        <button onclick="mostrarSecao('Algoritmo')">Raciocínio Algorítmico</button>
+        <button onclick="mostrarSecao('Filosofia')">Temas Abordados nas Aulas de Filosofia</button>
+      </div>
+      <div class="lado-direito-inner">
+        <div id="Experiencia_Criativa" class="conteudo-direito">
+          <h2>Experiência Criativa: Navegando na Computação</h2>
+          <h3>Projetos Desenvolvidos</h3>
+          <h2>Projeto 1</h2>
+          <h3>Jogo</h3>
+          <p>No primeiro projeto apresentado tivemos que criar um jogo por meio do construct, com minha equipe formada por cinco pessoas.</p>
+          <img src="Captura de tela 2025-06-12 092036.png">
+          <h2>Projeto 2</h2>
+          <h3>Aplicativo Multimídia</h3>
+          <p>No segundo projeto apresentado tivemos que criar um aplicativo multimídia, que promovesse ideias de uma atividade que ajudasse o meio ambiente.</p>
+          <img src="Captura de Tela (88).png">
+          <h2>Projeto 3</h2>
+          <h3>Desenvolvimento Web</h3>
+          <p>No terceiro projeto apresentado tivemos que criar um site com a temática parecida com o do segundo, que ajudasse a ensinar algo para as pessoas.</p>
+          <h2>Projeto 4</h2>
+          <h3>Página Web Pessoal</h3>
+          <p>No quarto projeto este mesmo que você está lendo, tivemos que criar um portfólio que contemplasse todas as matérias desse primeiro semestre.</p>
+        </div>
+        <div id="Fundamentos" class="conteudo-direito">
+          <h2>Fundamentos de Sistemas Ciberfísicos</h2>
+          <h3>Foram apresentados os seguintes conceitos:</h3>
+          <h3>Máquina de Turing</h3>
+          <p>A Máquina de Turing é um modelo teórico de computação criado por Alan Turing. Ela consiste em uma fita infinita e um cabeçote de leitura/escrita, sendo fundamental para entender os limites do que pode ser computado.</p>
+          <h3>Cálculo Binário e Lógica</h3>
+          <p>O cálculo binário utiliza apenas os dígitos 0 e 1, formando a base dos sistemas digitais. A lógica binária é essencial para o funcionamento dos circuitos eletrônicos e operações matemáticas nos computadores.</p>
+          <h3>Arquiteturas de Computadores</h3>
+          <p>Arquitetura de computadores refere-se à organização e interconexão dos componentes de um sistema computacional, como processador, memória e dispositivos de entrada/saída, determinando seu desempenho e funcionalidade.</p>
+          <h3>Arquitetura de Von Neumann</h3>
+          <p>A arquitetura de Von Neumann é um modelo clássico de computador onde dados e instruções compartilham o mesmo espaço de memória. Ela é a base da maioria dos computadores modernos.</p>
+          <h3>Estruturas de Redes e Computadores</h3>
+          <p>Estruturas de redes envolvem a organização de dispositivos e sistemas para comunicação eficiente, incluindo topologias como estrela, barramento e anel, além de protocolos de comunicação.</p>
+          <h3>Redes de Computadores</h3>
+          <p>Redes de computadores conectam múltiplos dispositivos para compartilhar informações e recursos. Elas podem ser locais (LAN), metropolitanas (MAN) ou globais (WAN), sendo essenciais para a comunicação digital atual.</p>
+          <h3>Trabalho final</h3>
+          <p>Tivemos que criar um projeto que utilizasse um arduino para criar uma aplicação como por exemplo cidades inteligentes, criando algo através de sensores e atuar através de atuadores. Que deve ser entregue o esquemático do Hardware, (Wokwi, Tinkercad) ou no equipamento real – entregue em formato de relatório, explicando quais sensores estão sendo utilizados e como estão sendo utilizados.</p>
+        </div>
+        <div id="Logica" class="conteudo-direito">
+          <h2>Resolução de Problemas com Lógica Matemática</h2>
+          <h3>Foram apresentados os seguintes conceitos:</h3>
+          <h3>Introdução à Lógica Matemática</h3>
+          <p>A lógica matemática é o estudo das regras e princípios que regem o raciocínio formal. Ela permite analisar argumentos, identificar proposições e construir demonstrações rigorosas.</p>
+          <h3>Operadores Lógicos</h3>
+          <p>Operadores lógicos são símbolos usados para combinar ou modificar proposições, como E (conjunção), OU (disjunção), NÃO (negação), SE...ENTÃO (condicional) e SE E SOMENTE SE (bicondicional).</p>
+          <h3>Árvore Sintática</h3>
+          <p>A árvore sintática é uma representação gráfica que mostra a estrutura hierárquica de uma expressão lógica, facilitando a visualização da ordem de aplicação dos operadores.</p>
+          <h3>Tabela Verdade</h3>
+          <p>A tabela verdade é uma ferramenta que exibe todas as possíveis combinações de valores lógicos das proposições e o resultado final da expressão, permitindo analisar sua validade.</p>
+          <h3>Manipulação Sintática</h3>
+          <p>Manipulação sintática envolve a aplicação de regras e propriedades para transformar e simplificar expressões lógicas, tornando-as mais fáceis de analisar ou resolver.</p>
+        </div>
+        <div id="Algoritmo" class="conteudo-direito">
+          <h2>Raciocínio Algorítmico</h2>
+          <h3>Em Raciocínio Algorítmico usamos a linguagem de programação Python durante todo o semestre para realizar as atividades</h3>
+          <h2>Trabalho Colaborativo 01</h2>
+          <p>Nesse trabalho feito em dupla tivemos que criar um programa em Python que executasse um jogo de "Pedra, Papel ou Tesoura"</p>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Logo Python" style="max-width:180px;display:block;margin:24px auto 0 auto;">
+          <h2>Trabalho Colaborativo 02</h2>
+          <p>Nesse trabalho feito em dupla tivemos que criar um programa em Python que executasse um jogo de "Batalha Naval"</p>
+          <p2>Tendo que ter a opção de jogador vs jogador e jogador vs Ia</p2>
+        </div>
+        <div id="Filosofia" class="conteudo-direito">
+          <h2>Temas Abordados nas Aulas de Filosofia</h2>
+          <ol>
+            <li><strong>Estou na universidade, e agora?</strong><br>Esse conceito aborda o desafio da transição para a vida universitária. Envolve refletir sobre o novo papel como estudante do ensino superior, as responsabilidades acadêmicas, a autonomia e o amadurecimento pessoal que esse ambiente exige.</li>
+            <li><strong>Exposição interativa sobre a universidade</strong><br>Aqui se trabalha o entendimento coletivo da universidade como espaço de construção do conhecimento, troca de ideias e desenvolvimento crítico, por meio da apresentação e discussão de temas relevantes ao contexto acadêmico.</li>
+            <li><strong>"Quem manda no mundo é o senso comum?"</strong><br>Esse conceito questiona o papel do senso comum – ideias aceitas sem reflexão crítica – e propõe o desenvolvimento de um pensamento mais profundo e fundamentado, distinguindo opiniões de argumentos bem construídos.</li>
+            <li><strong>Análise de caso: "A morte do Lucas"</strong><br>Discute-se como diferentes visões (destino, Deus, acaso, imprudência) explicam eventos trágicos. O objetivo é refletir sobre como interpretamos a realidade e assumimos (ou não) responsabilidades diante das consequências.</li>
+            <li><strong>"Eu faço uso do meu próprio entendimento?"</strong><br>Inspirado em Immanuel Kant, esse conceito promove a autonomia do pensamento, incentivando os alunos a saírem da "menoridade intelectual" e pensarem por si mesmos, em vez de apenas repetir o que escutam.</li>
+            <li><strong>Projeto Educativo Global do Papa Francisco</strong><br>Reflexão sobre o papel transformador da educação. A proposta do Papa Francisco é construir uma educação mais humana, solidária e voltada para o bem comum, questionando: “Estudar pra quê?”</li>
+            <li><strong>"As fake news norteiam nossas decisões?"</strong><br>Este tema trata dos impactos das informações falsas no comportamento social e político. Incentiva o pensamento crítico e o uso de fontes confiáveis na tomada de decisões e na construção de opiniões.</li>
+            <li><strong>"Eu vivo numa bolha epistêmica?"</strong><br>Refere-se ao fenômeno de se consumir apenas informações que confirmam o que já acreditamos, evitando o contato com ideias diferentes. A proposta é refletir sobre a importância do diálogo e da abertura ao novo.</li>
+            <li><strong>Avaliação escrita e devolutivas</strong><br>Aqui ocorre a consolidação dos aprendizados, por meio de provas e reflexões. As devolutivas ajudam a compreender os erros e acertos, fortalecendo o aprendizado contínuo.</li>
+            <li><strong>"A inteligência artificial irá nos superar?"</strong><br>Discussão sobre os avanços da IA e seus limites. Leva os estudantes a refletirem sobre o que nos torna humanos, os perigos e benefícios da tecnologia e seu impacto nas relações sociais e no trabalho.</li>
+            <li><strong>Projeto Primaveras Antropológicas</strong><br>Atividade que explora a diversidade cultural, o respeito às diferenças e a valorização da pluralidade de vozes na sociedade, com base na antropologia.</li>
+            <li><strong>Semana de Ética</strong><br>Evento voltado à discussão de temas éticos contemporâneos. Estimula a reflexão sobre responsabilidade, justiça, valores e condutas no ambiente pessoal, social e profissional.</li>
+            <li><strong>Organização do trabalho final</strong><br>Fase de planejamento e síntese do conhecimento adquirido durante o curso. Os grupos devem construir um conceito-problema, contextualizá-lo e apresentar uma reflexão crítica sobre o tema escolhido.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    function mostrarSecao(secaoId) {
+      const secoes = document.querySelectorAll('.conteudo-direito');
+      secoes.forEach(sec => sec.classList.remove('ativo'));
+      const secao = document.getElementById(secaoId);
+      if (secao) secao.classList.add('ativo');
+    }
+    function voltarInicio() {
+      const secoes = document.querySelectorAll('.conteudo-direito');
+      secoes.forEach(sec => sec.classList.remove('ativo'));
+    }
+  </script>
+</body>
+</html>
